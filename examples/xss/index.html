@@ -101,7 +101,7 @@
         powerpoint slide show. The "slide" class is entirely optional and indeed you wouldn't use it for
         your cooler impress.js presentations.
     -->
-    <div class="step slide title" data-x="0" data-y="0">
+    <div id="XSS" class="step slide title" data-x="0" data-y="0">
         <h1 class="s_heading">Cross Site Scripting - XSS</h1>
         <p class="s_text">Eine Übersicht zur am meisten ausgenutzten<br />Verwundbarkeit im Netz</p>
         <div class="s_footer s_left">Louis Siegrist</div><div class="s_footer s_center">Cross Site Scripting - XSS</div><div class="s_footer s_right">1</div>
@@ -109,7 +109,7 @@
         </div>
     </div>
     
-    <div class="step slide s_double" data-x="0" data-y="-1000">
+    <div id="Ziel" class="step slide s_double" data-x="0" data-y="900">
         <h1 class="s_heading s_h1">Ziel</h1>
         <ul>
                 <li class="s_text">Eine Übersicht...</li>
@@ -128,7 +128,7 @@
 
         <!-- DEMO -->
 
-<div class="step slide s_normal" data-x="0" data-y="-2000">
+<div id="XSS?" class="step slide s_normal" data-x="0" data-y="1800">
         <h1 class="s_heading">Wie funktioniert XSS?</h1>
         <ul>
                 <li class="s_text">Einschleusen von Code</li>
@@ -142,14 +142,15 @@
         </div>
     </div>
     
-<div class="step slide s_image" data-x="0" data-y="-3000">
+<div id="XSS?" class="step slide s_image" data-x="0" data-y="2700">
         <h1 class="s_heading">Wie funktioniert XSS?</h1>
+        <!-- IMAGE -->
         <div class="s_footer s_left">Louis Siegrist</div><div class="s_footer s_center">Cross Site Scripting - XSS</div><div class="s_footer s_right">1</div>
         <div class="notes">
         </div>
     </div>
     
- <div class="step slide s_normal" data-x="0" data-y="-4000">
+ <div id="Zahlen & Fakten" class="step slide s_normal" data-x="0" data-y="3600">
         <h1 class="s_heading">Zahlen & Fakten</h1>
         <ul>
                 <li class="s_text">Einschleusen von Code</li>
@@ -163,26 +164,43 @@
         </div>
     </div>
     
-    <div class="step slide s_normal" data-x="0" data-y="-5000">
+    <div id="Gegenmassnahmen" class="step slide s_normal" data-x="0" data-y="4500">
         <h1 class="s_heading">Gegenmassnahmen als Entwickler</h1>
         <ul>
-                <li class="s_text">Einschleusen von Code</li>
-                <li class="s_text">Häufig JavaScript</li>
-                <li class="s_text">Veränderbare Parameter / Inputs</li>
-                <li class="s_text">Stored, Reflected und DOM Based</li>
-                <li class="s_text">Kombinationsmöglichkeit</li>
+                <li class="s_text">Grosses Misstrauen</li>
+                <li class="s_text">Whitelisting / Validierung</li>
+                <!-- IMAGE -->
         </ul>
         <div class="s_footer s_left">Louis Siegrist</div><div class="s_footer s_center">Cross Site Scripting - XSS</div><div class="s_footer s_right">1</div>
         <div class="notes">
         </div>
-    </div>   
+    </div>
+    
+    <div id="Gegenmassnahmen" class="step slide s_normal" data-x="0" data-y="5400">
+        <h1 class="s_heading">Gegenmassnahmen als Anwender</h1>
+        <ul>
+                <li class="s_text">JavaScript deaktivieren</li>
+                <li class="s_text">Filtern & Einschränken</li>
+        </ul>
+        <div class="s_footer s_left">Louis Siegrist</div><div class="s_footer s_center">Cross Site Scripting - XSS</div><div class="s_footer s_right">1</div>
+        <div class="notes">
+        </div>
+    </div>
+    
+    <div id="Ende" class="step slide s_end" data-x="0" data-y="6400">
+        <h1 class="s_heading s_h1">Dankeschön!</h1>
+        <h1 class="s_heading s_h2">Fragen?</h1>
+        <div class="s_footer s_left">Louis Siegrist</div><div class="s_footer s_center">Cross Site Scripting - XSS</div><div class="s_footer s_right">1</div>
+        <div class="notes">
+        </div>
+    </div>
 
     <!-- This last, empty "slide" is set to be very large using the data-scale attribute, 
          so that it covers all the other slides you just saw. 
          It's a common way of zooming out at the end, to show the whole presentation.
          In CSS, we set pointer-events:none to make this slide non-clickable. 
          It makes a difference at least for SVG content, such as the mermaid diagram. -->
-    <div id="overview" class="step" data-x="0" data-y="-2500" data-scale="10" style="pointer-events: none;">
+    <div id="Übersicht" class="step" data-x="0" data-y="-2500" data-scale="10" style="pointer-events: none;">
     </div>
 </div>
 
