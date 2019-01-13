@@ -2,12 +2,14 @@ li, p, h1, h2, h3 {
   margin-left: 50px;
 }
 img{
-  width: 100%;
+  width: 90%;
+  margin-top: -110px;
   position: center;
   align-self: center;
 }
 li {
     margin: 0.2em;
+    line-height: 1.6;
 }
 
 h1 {
