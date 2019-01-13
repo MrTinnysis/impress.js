@@ -12,7 +12,8 @@ function showList() {
 
 function add(){
   var add = alert("Böse Welt");
+  var add2 = decument.getElementById("input");
 
   var element = document.getElementById("inhalt");
-  element.innerHTML(add);
+  element.innerHTML(add2);
 }
