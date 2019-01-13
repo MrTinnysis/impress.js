@@ -197,7 +197,7 @@ img {
     font-weight: normal !IMPORTANT;
 }
 
-.sem3-footer div {
+.sem3-footer {
   bottom: 0.5em;
   font-size: 1.2em;
   font-weight: bold;
@@ -207,18 +207,20 @@ img {
 
 }
 
-.sem3-footer .left div {
+.left {
   text-align: left;
   position: left;
 }
 
-.sem3-footer .center div {
+.center {
   text-align: center;
-  position: center;}
+  position: center;
+}
 
-.sem3-footer .right div {
+.right {
   text-align: right;
-  position: right;}
+  position: right;
+}
 
 
 
