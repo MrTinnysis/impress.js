@@ -189,6 +189,7 @@ img {
     top: 345px;
     font-size: 1.6em !IMPORTANT;
     font-weight: normal !IMPORTANT;
+    line-height: 1.1;
 }
 .title h3 {
     top: 500px;
