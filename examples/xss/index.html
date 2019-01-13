@@ -129,13 +129,14 @@
 
     <div id="Ein_Beispiel" class="step slide s_demo" data-x="0" data-y="2000">
         <h1 class="s_heading">Ein Beispiel</h1>
-        <input id="input"></input> <button onclick="add()"></button>
         <p>Einkaufsliste:
           <ul id="demoList1" class="s_demoList"></ul>
+          <input id="input"></input> <button onclick="add()">Hinzufügen</button>
         </p>
         <script type="text/javascript" src="demo.js"></script>
+
         <script>showList1();</script>
-        
+
         <div class="s_footer_s_left">Louis Siegrist</div><div class="s_footer_s_center">Cross Site Scripting - XSS</div><div class="s_footer_s_right">3</div>
         <div class="notes">
         </div>
@@ -145,9 +146,9 @@
         <h1 class="s_heading">Ein Beispiel</h1>
         <input id="input"></input> <button onclick="add()"></button>
         <p>Einkaufsliste: <button onclick="showList()">Anzeigen</button>
-          <ul id="demoList" class="s_demoList"></ul>
+          <ul id="demoList2" class="s_demoList"></ul>
         </p>
-
+        <script>document.write('Juhu')</script>
         <div class="s_footer_s_left">Louis Siegrist</div><div class="s_footer_s_center">Cross Site Scripting - XSS</div><div class="s_footer_s_right">3</div>
         <div class="notes">
         </div>
