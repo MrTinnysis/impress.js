@@ -128,7 +128,19 @@
     </div>
 
     <div id="Ein_Beispiel" class="step slide s_demo" data-x="0" data-y="2000">
-        <h1 class="s_heading s_h1">Ein Beispiel</h1>
+        <h1 class="s_heading">Ein Beispiel</h1>
+        <input id="input"></input> <button onclick="add()"></button>
+        <p>Einkaufsliste:
+          <ul id="demoList" class="s_demoList"></ul>
+        </p>
+
+        <div class="s_footer_s_left">Louis Siegrist</div><div class="s_footer_s_center">Cross Site Scripting - XSS</div><div class="s_footer_s_right">3</div>
+        <div class="notes">
+        </div>
+    </div>
+
+    <div id="Ein_Beispiel_2" class="step slide s_demo" data-x="1500" data-y="2000">
+        <h1 class="s_heading">Ein Beispiel</h1>
         <input id="input"></input> <button onclick="add()"></button>
         <p>Einkaufsliste: <button onclick="showList()">Anzeigen</button>
           <ul id="demoList" class="s_demoList"></ul>
@@ -139,7 +151,7 @@
         </div>
     </div>
 
-<div id="XSS?_1" class="step slide s_normal" data-x="0" data-y="3000">
+    <div id="XSS?_1" class="step slide s_normal" data-x="0" data-y="3000">
         <h1 class="s_heading">Wie funktioniert XSS?</h1>
         <ul>
                 <li class="s_text">Einschleusen von Code</li>
@@ -226,6 +238,6 @@
 <script type="text/javascript" src="../../js/impress.js"></script>
 <script type="text/javascript" src="demo.js"></script>
 <script>impress().init();</script>
-
+<script>showList();</script>
 </body>
 </html>

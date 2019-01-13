@@ -1,14 +1,11 @@
-var demo = '<script>alert("lol");</script>'
-document.getElementById("inhalt").innerHTML = demo;
-var shoppingList = ["180g Schokolade", "180g Butter", "180 Mehl", "200g Zucker", "4 Eier", "Backpulver"];
+var shoppingList_clean = ["180g Schokolade", "180g Butter", "180 Mehl", "200g Zucker", "4 Eier", "Backpulver", "<script>document.write('Juhu')</script>"];
 function showList() {
   var demoList = document.getElementById("demoList");
-  //for (var i = 0; i < shoppingList.length; i++) {
-  //  var demoListEntry = document.createElement('li');
-  //  demoList.appendChild(demoListEntry);
-  //  demoListEntry.appendChild();
-  //}
-  demoList.innerHTML = shoppingList[i];
+  for (var i = 0; i < shoppingList.length; i++) {
+    var demoListEntry = document.createElement('li');
+    demoListEntry.appendChild(document.createTextNode(shoppingList[i]));
+    demoList.appendChild(demoListEntry);
+  }
 }
 
 function add(){
