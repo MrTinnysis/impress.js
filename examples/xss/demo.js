@@ -10,9 +10,9 @@ function showList1() {
 
 function addToList(){
   //var add = alert("Böse Welt");
-  var add = document.getElementById("add");
+  var input = document.getElementById("input");
   var demoList = document.getElementById("demoList1");
   var demoListEntry = document.createElement('li');
-  demoListEntry.appendChild(document.createTextNode(shoppingList_clean[i]));
+  demoListEntry.appendChild(document.createTextNode(input.value));
   demoList.appendChild(demoListEntry);
 }
