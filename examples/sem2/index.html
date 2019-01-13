@@ -1,24 +1,14 @@
 <!doctype html>
 
-<!--
-  A presentation done entirely in Markdown, as found in extras/markdown/.
-
-  By: @henrikingo
--->
-
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="utf-8" />
     <title>Cross Site Scripting - XSS</title>
 
     <meta name="description" content="Cross Site Scripting - XSS" />
-    <meta name="author" content="Louis Siegrist; Raphael Gerber" />
+    <meta name="author" content="Louis Siegrist" />
     <link rel="stylesheet" href="../../extras/highlight/styles/github.css">
 
-
-    <!--
-        Styles specific for this example presentation.
-    -->
     <link href="css/markdown-slides.css" rel="stylesheet" />
     <link href="css/devopsy.css" rel="stylesheet" />
     <link href="css/effects.css" rel="stylesheet" />
@@ -32,6 +22,11 @@
 </div>
 
 <div id="impress" data-transition-duration="1000">
+
+  <div id="title-slide" class="step slide title markdown" data-x="2000" data-y="5000">
+  # Title slide
+  ## This slide has different CSS class than the previous ones
+  </div>
 
 <div id="markdown" class="step slide markdown" data-rel-x="0" data-rel-y="900">
 # Cross Site Scripting - XSS
@@ -65,8 +60,8 @@
 </div>
 </div>
 
-<div id="impress-toolbar"></div>
-<div id="impress-help"></div>
+<!--<div id="impress-toolbar"></div>
+<div id="impress-help"></div> -->
 
 
 <!-- Extra modules
