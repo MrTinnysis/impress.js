@@ -197,6 +197,29 @@ img {
     font-weight: normal !IMPORTANT;
 }
 
+.sem3-footer div {
+  bottom: 0.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: grey;
+  font-family: 'PT Serif';
+  width: 30%;
+
+}
+
+.sem3-footer .left div {
+  text-align: left;
+  position: left;
+}
+
+.sem3-footer .center div {
+  text-align: center;
+  position: center;}
+
+.sem3-footer .right div {
+  text-align: right;
+  position: right;}
+
 
 
 /***** Plugins ******/
