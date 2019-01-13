@@ -11,9 +11,9 @@ function showList() {
 }
 
 function add(){
-  var add = alert("Böse Welt");
+  //var add = alert("Böse Welt");
   var add2 = document.getElementById("input");
-
+alert(add2.value)
   var element = document.getElementById("inhalt");
-  element.innerHTML(add2);
+  element.innerHTML(add2.value);
 }
