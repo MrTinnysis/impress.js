@@ -133,17 +133,7 @@
           <ul id="demoList" class="s_demoList"></ul>
         </p>
 
-        <script>
-        var shoppingList = ["180g Schokolade", "180g Butter", "180 Mehl", "200g Zucker", "4 Eier", "Backpulver" , 'alert("lol");'];
-        function showList() {
-          var demoList = document.getElementById("demoList");
-          for (var i = 0; i < shoppingList.length; i++) {
-            var demoListEntry = document.createElement('li');
-            demoListEntry.appendChild(document.createTextNode(shoppingList[i]));
-            demoList.appendChild(demoListEntry);
-          }
-        }
-        </script>
+
         <div class="s_footer_s_left">Louis Siegrist</div><div class="s_footer_s_center">Cross Site Scripting - XSS</div><div class="s_footer_s_right">3</div>
         <div class="notes">
         </div>
@@ -234,6 +224,7 @@
     And you should do it in the end of your document.
 -->
 <script type="text/javascript" src="../../js/impress.js"></script>
+<script type="text/javascript" src="demo.js"></script>
 <script>impress().init();</script>
 
 </body>
