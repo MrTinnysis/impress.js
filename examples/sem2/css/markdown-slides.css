@@ -198,7 +198,7 @@ img {
 }
 
 .sem3-footer {
-  bottom: 1.5em;
+  bottom: 1.6em;
   font-size: 1em;
   font-weight: bold;
   color: grey;
@@ -210,17 +210,19 @@ img {
 .left {
   text-align: left;
   position: fixed;
-  margin-left: 45px;
+  margin-left: 105px;
 }
 
 .center {
   text-align: center;
   position: fixed;
+  align-self: center;
 }
 
 .right {
   text-align: right;
   position: fixed;
+  align-self: right;
 }
 
 
