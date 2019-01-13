@@ -3,7 +3,7 @@ function showList() {
   var demoList = document.getElementById("demoList");
   for (var i = 0; i < shoppingList.length; i++) {
     var demoListEntry = document.createElement('li');
-    demoListEntry.appendChild(document.createTextNode(shoppingList[i]));
     demoList.appendChild(demoListEntry);
+    demoListEntry.appendChild(document.innerHTML(shoppingList[i]));
   }
 }
