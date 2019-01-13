@@ -9,3 +9,10 @@ function showList() {
   //}
   demoList.innerHTML(shoppingList[i])
 }
+
+function add(){
+  var add = alert("Böse Welt");
+
+  var element = document.getElementById("inhalt");
+  element.innerHTML(add);
+}
