@@ -3,8 +3,8 @@ function showList1() {
   var demoList = document.getElementById("demoList1");
   for (var i = 0; i < shoppingList_clean.length; i++) {
     var demoListEntry = document.createElement('li');
-    demoListEntry.appendChild(document.createTextNode(shoppingList_clean[i]));
     demoList.appendChild(demoListEntry);
+    demoListEntry.innerHTML = shoppingList_clean[i];
   }
 }
 
