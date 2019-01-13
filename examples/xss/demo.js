@@ -13,7 +13,7 @@ function showList() {
 function add(){
   //var add = alert("Böse Welt");
   var add2 = document.getElementById("input");
-alert(add2.value)
+alert("Sie haben: "+add2.value+" hinzugefügt!")
   var element = document.getElementById("inhalt");
   element.innerHTML(add2.value);
 }
