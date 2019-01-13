@@ -1,6 +1,11 @@
 li, p, h1, h2, h3 {
   margin-left: 50px;
 }
+img{
+  height: 100%;
+  position: center;
+  align-self: center;
+}
 li {
     margin: 0.2em;
 }
