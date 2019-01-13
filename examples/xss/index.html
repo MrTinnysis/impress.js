@@ -39,6 +39,7 @@
     -->
     <link href="css/classic-slides.css" rel="stylesheet" />
     <link href="css/sem2.css" rel="stylesheet" />
+    <script type="text/javascript" src="demo.js"></script>
 
 </head>
 
@@ -129,10 +130,9 @@
 
     <div id="Ein_Beispiel" class="step slide s_demo" data-x="0" data-y="2000">
         <h1 class="s_heading">Ein Beispiel</h1>
-        <p class="s_text">Einkaufsliste: <input id="input"></input> <button onclick="addToList()">Hinzufügen</button>
+        <p class="s_text">Einkaufsliste: <input id="input1"></input> <button onclick="addToList()">Hinzufügen</button>
           <ul id="demoList1" class="s_demoList"></ul>
         </p>
-        <script type="text/javascript" src="demo.js"></script>
 
         <script>showList1();</script>
 
@@ -143,11 +143,14 @@
 
     <div id="Ein_Beispiel_2" class="step slide s_demo" data-x="1500" data-y="2000">
         <h1 class="s_heading">Ein Beispiel</h1>
-        <input id="input"></input> <button onclick="add()"></button>
+        <input id="input"></input> <button id="button" onclick="addToList()"></button>
         <p>Einkaufsliste: <button onclick="showList()">Anzeigen</button>
           <ul id="demoList2" class="s_demoList"></ul>
         </p>
-        <script>document.write('Juhu')</script>
+
+        <script>showList2();</script>
+        <script>document.getElementById("button").onclick = function (){window.open('https://www.google.com/search?q=' + document.getElementById("input").value,'_blank');};</script>
+
         <div class="s_footer_s_left">Louis Siegrist</div><div class="s_footer_s_center">Cross Site Scripting - XSS</div><div class="s_footer_s_right">3</div>
         <div class="notes">
         </div>

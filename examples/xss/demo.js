@@ -8,9 +8,18 @@ function showList1() {
   }
 }
 
+function showList2() {
+  var demoList = document.getElementById("demoList2");
+  for (var i = 0; i < shoppingList_clean.length; i++) {
+    var demoListEntry = document.createElement('li');
+    demoListEntry.appendChild(document.createTextNode(shoppingList_clean[i]));
+    demoList.appendChild(demoListEntry);
+  }
+}
+
 function addToList(){
   //var add = alert("Böse Welt");
-  var input = document.getElementById("input");
+  var input = document.getElementById("input1");
   var demoList = document.getElementById("demoList1");
   var demoListEntry = document.createElement('li');
   demoListEntry.appendChild(document.createTextNode(input.value));
