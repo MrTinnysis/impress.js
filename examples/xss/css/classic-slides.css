@@ -50,7 +50,7 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
-    min-height: 740px;
+    min-height: 760px;
 
     background: rgb(215, 215, 215);
     color: rgb(102, 102, 102);
@@ -258,7 +258,7 @@ img {
  fly-in class starts from a position outside the slide, then flies into it's correct position.
 */
 .future .fly-in {
-    transform: translateY(-700px);
+    transform: translateY(-720px);
     opacity: 0.0; /* Make it invisible, just so it doesn't clutter some other slide that might be in the position where we moved it */
 }
 .present .fly-in {
@@ -267,7 +267,7 @@ img {
     transition:         2s;
 }
 .past .fly-out {
-    transform:         translateY(700px);
+    transform:         translateY(720px);
     opacity: 0.0;
     transition:         2s;
 }
