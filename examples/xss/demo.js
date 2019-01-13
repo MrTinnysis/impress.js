@@ -12,7 +12,7 @@ function showList() {
 
 function add(){
   var add = alert("Böse Welt");
-  var add2 = decument.getElementById("input");
+  var add2 = document.getElementById("input");
 
   var element = document.getElementById("inhalt");
   element.innerHTML(add2);
