@@ -15,5 +15,5 @@ function add(){
   var add2 = document.getElementById("input");
 alert("Sie haben: "+add2.value+" hinzugefügt!")
   var element = document.getElementById("inhalt");
-  document.getElementById("inhalt").innerHTML(add2.value);
+  document.getElementById("inhalt").innerHTML = add2.value;
 }
