@@ -105,8 +105,8 @@ body {
 .slide {
     display: block;
 
-    width: 1600px;
-    height: 900px;
+    width: 900px;
+    height: 700px;
     padding: 40px 60px;
 
     background-image: url(../images/background.png);
