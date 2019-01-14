@@ -7,6 +7,12 @@ img{
   position: center;
   align-self: center;
 }
+img#code{
+  width: 100%;
+  margin-top: -40px;
+  position: center;
+  align-self: center;
+}
 li {
     margin: 0.2em;
     line-height: 1.2;
